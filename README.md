@@ -1,32 +1,32 @@
-# gpm-plugin-npmi 
+# gpm-plugin-pub 
 
-[gpm](https://github.com/gpmer/gpm.js) plugin for run npm install after add repository
+[gpm](https://github.com/gpmer/gpm.js) plugin for Dart project, run <pub get> after add repository
 
 ## Installation
 ```bash
-npm install gpm-plugin-npmi -g
+npm install gpm-plugin-pub -g
 ```
 
 ## Usage
 
 ```bash
-gpm add https://github.com/gpmer/gpm.js.git -p npmi
+gpm add https://github.com/axetroy/commander.dart.git -p pub
 
 # or
 
-gpm add https://github.com/gpmer/gpm.js.git --plugin npmi
+gpm add https://github.com/axetroy/commander.dart.git --plugin pub
 ```
 
 ## Contribute
 
 ```bash
-git clone https://github.com/gpmer/gpm-plugin-npmi.git
-cd ./gpm-plugin-npmi
+git clone https://github.com/gpmer/gpm-plugin-pub.git
+cd ./gpm-plugin-pub
 node ./index.js
 ```
 
-You can flow [Contribute Guide](https://github.com/gpmer/gpm-plugin-npmi/blob/master/contributing.md)
+You can flow [Contribute Guide](https://github.com/gpmer/gpm-plugin-pub/blob/master/contributing.md)
 
 ## License
 
-The [MIT License](https://github.com/gpmer/gpm-plugin-npmi/blob/master/LICENSE)
+The [MIT License](https://github.com/gpmer/gpm-plugin-pub/blob/master/LICENSE)
