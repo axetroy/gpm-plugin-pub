@@ -1,0 +1,36 @@
+{
+  "name": "gpm-plugin-pub",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "version": "1.0.0",
+  "description": "gpm plugin for Dart project, run <pub get> after add repository",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpmer/gpm-plugin-pub.git"
+  },
+  "keywords": [
+    "git",
+    "gpm",
+    "gpmx",
+    "github",
+    "manager",
+    "plugin"
+  ],
+  "author": "axetroy",
+  "contributors": [
+    {
+      "name": "Axetroy",
+      "email": "troy450409405@gmail.com",
+      "url": "https://axetroy.github.io/"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gpmer/gpm-plugin-pub/issues"
+  },
+  "preferGlobal": true,
+  "homepage": "https://github.com/gpmer/gpm-plugin-pub#readme"
+}
