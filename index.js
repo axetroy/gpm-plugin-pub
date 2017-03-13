@@ -4,11 +4,11 @@
 
 const spawn = require('child_process').spawn;
 
-function npmInstall(done) {
+function pubGet(done) {
   const ls = spawn('pub', ['get'], {stdio: 'inherit'});
   ls.on('close', (code) => {
     done();
   });
 }
 
-exports.add = npmInstall;
+exports.add = pubGet;
