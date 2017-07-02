@@ -1,5 +1,7 @@
 # gpm-plugin-pub 
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gpmer/gpm-plugin-pub.svg)](https://greenkeeper.io/)
+
 [gpm](https://github.com/gpmer/gpm.js) plugin for Dart project, run <pub get> after add repository
 
 ## Installation
